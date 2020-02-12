@@ -2,13 +2,12 @@ import React from "react";
 import "./Example1.scss";
 
 const Example1 = ({ data }) => {
-  console.log(data);
   return (
-    <div className="outer-box">
-      <div className="header-box">Example 1 - SCSS</div>
-      <div className="content-box">
-        <table className="main-table">
-          <thead>
+    <div className="outerBox">
+      <div className="headerBox">Example 1 - SCSS</div>
+      <div className="contentBox">
+        <table className="tableBox">
+          <thead className="theadBox">
             <tr>
               {Object.keys(data[0]).map((field, i) => {
                 return <th key={i}>{field}</th>;
@@ -20,7 +19,7 @@ const Example1 = ({ data }) => {
               return (
                 <tr key={i}>
                   {Object.values(row).map((field, j) => {
-                    return <td key={j}>{field}</td>;
+                    return <td key={j} className="tdBox">{field}</td>;
                   })}
                 </tr>
               );

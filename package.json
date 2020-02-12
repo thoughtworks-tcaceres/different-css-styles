@@ -5,10 +5,12 @@
   "keywords": [],
   "main": "src/index.js",
   "dependencies": {
+    "classnames": "2.2.6",
     "multiple-faker": "1.0.0",
     "react": "16.12.0",
     "react-dom": "16.12.0",
-    "react-scripts": "3.0.1"
+    "react-scripts": "3.0.1",
+    "styled-components": "5.0.1"
   },
   "devDependencies": {
     "typescript": "3.3.3"
