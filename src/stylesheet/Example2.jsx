@@ -2,6 +2,7 @@ import React from "react";
 import styles from "./Example2.module.scss";
 
 const Example2 = ({ data }) => {
+  
   return (
     <div className={styles.outerBox}>
       <div className={styles.headerBox}>Example 2 - module stylesheet</div>
