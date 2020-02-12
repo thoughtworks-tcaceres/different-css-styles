@@ -4,7 +4,7 @@ const attributes = {
   name: ["firstName", "lastName", "jobTitle"],
   phone: ["phoneNumber"]
 };
-const numRows = 10;
+const numRows = 5;
 const data = multipleFaker(numRows, attributes);
 
 export default data;

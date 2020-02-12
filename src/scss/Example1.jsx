@@ -19,7 +19,11 @@ const Example1 = ({ data }) => {
               return (
                 <tr key={i}>
                   {Object.values(row).map((field, j) => {
-                    return <td key={j} className="tdBox">{field}</td>;
+                    return (
+                      <td key={j} className="tdBox">
+                        {field}
+                      </td>
+                    );
                   })}
                 </tr>
               );

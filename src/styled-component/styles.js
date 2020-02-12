@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const StyledOuterBox = styled.div`
   border: 1px solid red;
+  padding: 10px;
 `;
 
 export const StyledHeaderBox = styled.div`
